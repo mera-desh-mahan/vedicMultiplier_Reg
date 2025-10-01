@@ -6,14 +6,17 @@ sim: clean
 	gtkwave vedicmultiplier.vcd
 
 syn: create
-	cd workarea ; yosys -s ../scripts/synthesis.tcl ; cat vedic.vg  | egrep -v "\(\*" > vedic_filter.vg
-	#cd workarea ; yosys -s ../scripts/sf4_synthesis.tcl ; cat vedic.vg  | egrep -v "\(\*" > vedic_filter.vg
+	#cd workarea ; yosys -s ../scripts/synthesis.tcl ; cat vedic.vg  | egrep -v "\(\*" > vedic_filter.vg
+	cd workarea ; yosys -s ../scripts/sf4_synthesis.tcl ; cat vedic.vg  | egrep -v "\(\*" > vedic_filter.vg
 
 cpnr:
-	cd workarea ; proton_hier --cleanlog --nolog -f ../scripts/nangate_cpnr.tcl
+	cd workarea ; proton_hier --nogui --cleanlog --nolog -f ../scripts/nangate_cpnr.tcl
 
 create: clean
 		mkdir workarea
 
 app:
 	apptainer shell --bind /tech:/tech --bind /proj_pd:/proj_pd --bind /home/rsrivastava/:/home/rsrivastava/  ~/podman/pysparkcad.sif
+
+test1:
+	cd workarea ; proton_hier --nogui --cleanlog --nolog -f ../scripts/sf4_cpnr.tcl
