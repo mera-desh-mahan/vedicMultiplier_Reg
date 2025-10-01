@@ -1,0 +1,63 @@
+read_lef -lef /tech/samsung/LN04LPP/tech_files/V1.08_c/LN04LPP_INNOVUS_S00-V1.0.8.0_c_ENG_QUASAR_250710/16M_3Mx_2Fx_7Dx_2Hx_2Iz_LB/6p25TR/ln04lpp_tech_16M_3Mx_2Fx_7Dx_2Hx_2Iz_LB.big.4MIM.lef -tech only
+read_lef -lef /proj_pd/user_dev/rsrivastava/tiles/ls1/lef_dir/site.lef -tech only
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flk_ulvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flk_ulvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flkp_ulvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flkp_ulvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_cdk12m3mx2fx7dx_slvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_cdk12m3mx2fx7dx_slvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_elk_slvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_elk_slvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flk_slvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flk_slvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flkp_slvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flkp_slvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_mbslk_slvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_mbslk_slvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pbk_slvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pbk_slvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmk_slvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmk_slvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmkp_slvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmkp_slvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_jitterdecap_slvt_c54l04l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_jitterdecap_slvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_cdk12m3mx2fx7dx_lvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_cdk12m3mx2fx7dx_lvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_elk_lvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_elk_lvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flk_lvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flk_lvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flkp_lvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flkp_lvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_mbslk_lvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_mbslk_lvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pbk_lvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pbk_lvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmk_lvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmk_lvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmkp_lvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmkp_lvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_jitterdecap_lvt_c54l04l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_jitterdecap_lvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_elk_rvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_elk_rvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flk_rvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flk_rvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flkp_rvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_flkp_rvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_mbslk_rvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_mbslk_rvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pbk_rvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pbk_rvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmk_rvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmk_rvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmkp_rvt_c54l04.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_pmkp_rvt_c54l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_drlk_lvtrvt_c54l04l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_drlk_rvt_c54l04l06.lef
+read_lef -lef /tech/samsung/LN04LPP/stdcells/SF4LPP_20250806_H200_H254/S6P25T/FE-Common/LEF/ln04lpp_sc_s6p25t_drlk_slvtrvt_c54l04l06.lef
+read_verilog -v vedic_filter.vg
+elaborate
+set_floorplan_parameters -WIDTH 50 -HEIGHT 50
+set_floorplan --force
