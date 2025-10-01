@@ -9,6 +9,8 @@ syn: create
 	#cd workarea ; yosys -s ../scripts/synthesis.tcl ; cat vedic.vg  | egrep -v "\(\*" > vedic_filter.vg
 	cd workarea ; yosys -s ../scripts/sf4_synthesis.tcl ; cat vedic.vg  | egrep -v "\(\*" > vedic_filter.vg
 
+presta:
+		cd workarea ;  /root/OpenSTA/build/sta ../scripts/sf4_sta_synth.tcl
 cpnr:
 	cd workarea ; proton_hier --nogui --cleanlog --nolog -f ../scripts/nangate_cpnr.tcl
 
